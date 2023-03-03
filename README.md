@@ -48,7 +48,7 @@ docker-compose -f docker-compose.yml up -d --build --force-recreate
 
 To restart the containers later without a full rebuild, the options `--build` and `--force-recreate` can be omitted after the images are built already.
 
-When this finishes, and the database is up and mgirations are done, geoblacklight should be available at https://localhost:21800/
+When this finishes, and the database is up and migrations are done (takes about 3-5 minutes), geoblacklight should be available at https://localhost:21800/
 
 ### 5: Run commands inside a container
 To run commands inside a running container, execute a shell using the `exec` command. This same technique can be used to run commands in any container that is running already.
