@@ -1,0 +1,11 @@
+# Environment `development`, `test`, or `production`
+RAILS_ENV=development
+MYSQL_ROOT_PASSWORD=myrootpassword
+MYSQL_USER=geoblacklight_user
+MYSQL_PASSWORD=password
+MYSQL_DB=geoblacklight_local_db
+MYSQL_HOST=mysql
+MYSQL_PORT=3306:3306
+SOLR_PORT=8983
+SOLR_HOST=solr
+SOLR_URL=http://solr:8983/solr/geoblacklight

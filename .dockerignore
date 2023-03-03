@@ -1,0 +1,55 @@
+# Configs
+*.env*
+*.pem
+webapp.conf
+hgl.conf
+
+# Logs
+*.log
+
+# IDEs and editors
+.project
+.classpath
+*.launch
+.settings/
+.travis.yml
+
+#Tests
+spec/
+
+db-data
+
+#tmp
+tmp/
+
+#Docs
+docs/
+CONTRIBUTING.md
+README.md
+
+#Docker files
+docker-compose*.yml
+Dockerfile*
+
+#package
+package*.json
+
+
+#deploy
+deploy/
+
+Gemfile.lock
+
+webapp.conf.template
+hgl.conf.template
+env-example.txt
+
+# System Files
+.DS_Store
+Thumbs.db
+
+postgresql/
+data/
+solr_data/
+db-data/
+db_data/

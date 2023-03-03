@@ -1,0 +1,50 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+tmp/
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+/node_modules
+/yarn-error.log
+
+/public/assets
+.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Ignore environment file
+.env
+
+# Ignore local database directory
+postgresql/
+data/
+solr_data/
+db-data/*
+db_data/
+*.sqlite
+*.sqlite3
+
+!/db-data/.keep
+# various editor/config files
+\#*
+.#*
+*.swp
+.DS_Store
+.bash_history
+
+# Ignore cache files
+*cache
+
+.idea
+/.idea
+
+

@@ -1,0 +1,10 @@
+# Environment `development`, `test`, or `production`
+RAILS_ENV=development
+POSTGRES_USER=geoblacklight_user
+POSTGRES_PASSWORD=password
+POSTGRES_DB=geoblacklight_local_db
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+SOLR_PORT=8983
+SOLR_HOST=solr
+SOLR_URL=http://solr:8983/solr/geoblacklight
