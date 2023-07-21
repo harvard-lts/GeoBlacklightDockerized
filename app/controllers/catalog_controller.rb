@@ -47,11 +47,12 @@ class CatalogController < ApplicationController
     # This sets the metadata to display below the map viewer.
     # To move metadata above the map viewer,
     # remove the lines deleting and re-adding the :show partial
-    config.show.display_type_field = 'format'
+    config.show.display_type_field = "format"
     config.show.partials.delete(:show)
-    config.show.partials << 'show_default_viewer_container'
-    config.show.partials << 'show_default_attribute_table'
-    config.show.partials << 'show_default_viewer_information'
+    config.show.partials << "show_default_display_note"
+    config.show.partials << "show_default_viewer_container"
+    config.show.partials << "show_default_attribute_table"
+    config.show.partials << "show_default_viewer_information"
     config.show.partials << :show
 
     ##
