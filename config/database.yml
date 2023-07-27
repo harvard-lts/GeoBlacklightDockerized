@@ -7,7 +7,6 @@ default: &default
   database: <%= ENV['MYSQL_DB'] %>
   password: <%= ENV['MYSQL_PASSWORD'] %>
   host: <%= ENV['MYSQL_HOST'] %>
-  ssl_mode: disabled
 
 development:
   <<: *default
