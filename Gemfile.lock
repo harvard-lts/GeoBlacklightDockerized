@@ -253,7 +253,7 @@ GEM
     mime-types-data (3.2023.0218.1)
     mini_mime (1.1.2)
     minitar (0.9)
-    minitest (5.18.1)
+    minitest (5.20.0)
     msgpack (1.7.1)
     mysql2 (0.5.5)
     net-http-persistent (4.0.2)
@@ -370,7 +370,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
-    view_component (2.82.0)
+    view_component (2.83.0)
       activesupport (>= 5.2.0, < 8.0)
       concurrent-ruby (~> 1.0)
       method_source (~> 1.0)
